@@ -4,8 +4,8 @@
  ┣━ .github
  ┃   ┗━ workflows
  ┃       ┗━ python-tests.yml       # GitHub Actions 설정 파일
- ┣━ factorial
- ┃   ┣━ __init__.py                # 패키지 임포트를 위한 파일(비어있어도 됨)
+ ┣━ src
+ ┃   ┣━ __init__.py                # 패키지 임포트를 위한 파일(비어있음)
  ┃   ┗━ factorial.py               # 팩토리얼 로직 구현
  ┣━ tests
  ┃   ┗━ test_factorial.py          # 테스트 코드
