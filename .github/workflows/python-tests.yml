@@ -23,9 +23,9 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
-          pip install -e .
 
       - name: Run tests
         run: |
+          export PYTHONPATH="${PYTHONPATH}:."
           # pytest 명령으로 tests 디렉토리 내 모든 테스트를 실행
           pytest
